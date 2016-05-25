@@ -1,0 +1,617 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-bottom",
+				"border-bottom-style"
+			],
+			[
+				"no",
+				"nowrap"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dist/home.html",
+			"settings":
+			{
+				"buffer_size": 1687,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/scss/site.scss",
+			"settings":
+			{
+				"buffer_size": 4064,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 321.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"pro",
+				"Project: Add Folder"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/wiliam",
+		"/C/wamp64/www/wiliam/dist",
+		"/C/wamp64/www/wiliam/dist/images"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/wiliam/src/scss/_variables.scss",
+		"/C/wamp64/www/npa-worldwide/edm.html",
+		"/C/wamp64/www/preactarecruitment/web parts/footer.html",
+		"/C/wamp64/www/preactarecruitment/css/style.css",
+		"/C/wamp64/www/preactarecruitment/pages/meet the team.html",
+		"/C/wamp64/www/preactarecruitment/pages/preacta labs.html",
+		"/C/wamp64/www/preactarecruitment/web parts/home banner.html",
+		"/C/wamp64/www/preactarecruitment/css/strapslide.css",
+		"/C/wamp64/www/preactarecruitment/js/myjs.js",
+		"/C/wamp64/www/preactarecruitment/js/owl.carousel.min.js",
+		"/C/wamp64/www/preactarecruitment/js/widget.js",
+		"/C/wamp64/www/preactarecruitment/global.html",
+		"/C/wamp64/www/1-FORMS/preactarecruitment/css/custom-form.css",
+		"/C/wamp64/www/preactarecruitment/web parts/job ad.html",
+		"/C/wamp64/www/preactarecruitment/css/job-ad-template.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/wamp64/www/JXT-admin/css/style.css",
+		"/C/wamp64/www/JXT-admin/css/style-admin.css",
+		"/C/wamp64/www/responsive-27/css/style.css",
+		"/C/wamp64/www/talon-group/talon group.sublime-project",
+		"/C/wamp64/www/talon-group/css/style.css",
+		"/C/wamp64/www/links-international/js/career-tree/career-tree.js",
+		"/C/wamp64/www/links-international/js/career-tree/select-location.js",
+		"/C/wamp64/www/research2search/pages/consultant.html",
+		"/C/wamp64/www/research2search/js/myjs.js",
+		"/C/wamp64/www/research2search/web parts/home content.html",
+		"/C/wamp64/www/research2search/js/jquery.js",
+		"/C/wamp64/www/1-FORMS/research4search/css/custom-form.css",
+		"/C/wamp64/www/1-FORMS/research4search/css/enquiry-footer.css",
+		"/C/wamp64/www/research2search/web parts/advanced search.html",
+		"/C/wamp64/www/responsive-27/js/myjs.js",
+		"/C/wamp64/www/dixon2014/js/myjs.js",
+		"/C/wamp64/www/dixon2014/css/style.css",
+		"/C/wamp64/www/bradfield-associates/css/style.css",
+		"/C/wamp64/www/bradfield-associates/pages/contact us.html",
+		"/C/wamp64/www/bradfield-associates/web-parts/header.html",
+		"/C/wamp64/www/bradfield-associates/index.php",
+		"/C/wamp64/www/bradfield-associates/js/myjs.js",
+		"/C/wamp64/www/bradfield-associates/web-parts/home-banner.html",
+		"/C/wamp64/www/bradfield-associates/web-parts/footer.html",
+		"/C/wamp64/www/bayside-personnel-2014/js/myjs.js",
+		"/C/wamp64/www/bayside-personnel-2014/js/event.js",
+		"/C/wamp64/www/bradfield-associates/web parts/home banner.html",
+		"/C/wamp64/www/bradfield-associates/js/main.js",
+		"/C/wamp64/www/responsive-29/pages/consultant.html",
+		"/C/wamp64/www/responsive-29/web parts/home content.html",
+		"/C/wamp64/www/responsive-29/js/myjs.js",
+		"/C/wamp64/www/COMMON/js/include-feed-3.0.js",
+		"/C/wamp64/www/responsive-29/css/style.css",
+		"/C/wamp64/www/responsive-29/css/strapslide.css",
+		"/C/wamp64/www/responsive-29/css/system-responsive.css",
+		"/C/wamp64/www/responsive-27/css/system-responsive-2.css",
+		"/C/wamp64/www/responsive-29/web parts/advanced search.html",
+		"/C/wamp64/www/responsive-29/web parts/widget search.html",
+		"/C/wamp64/www/1-FORMS/RESPONSIVE-TEMPLATES/r29/css/custom-form.css",
+		"/C/wamp64/www/1-FORMS/RESPONSIVE-TEMPLATES/r29/css/enquiry-footer.css",
+		"/C/wamp64/www/responsive-29/global.html",
+		"/C/Users/karl/Desktop/FileZilla.xml",
+		"/C/wamp64/www/onestaff/css/style.css",
+		"/C/wamp64/www/onestaff/css/onestaff-theme.css",
+		"/C/wamp64/www/onestaff/css/system-responsive.css",
+		"/C/wamp64/www/bayside-group-2013/css/style.css",
+		"/C/wamp64/www/bayside-group-2013/global/css/generic-page.css",
+		"/C/wamp/www/bayside-group/js/myjs.js",
+		"/C/wamp/www/bayside-group/pages/home-2.html",
+		"/C/wamp/www/bayside-group/pages/home BU.html",
+		"/C/wamp/www/bayside-group/css/style.css",
+		"/C/wamp/www/bayside-group/index.php",
+		"/C/wamp/www/bayside-group/js/widget.js",
+		"/C/wamp/www/bayside-group/web-parts/web-part-banner-2.html",
+		"/C/wamp/www/bayside-group/web-parts/web-part-footer.html",
+		"/C/wamp/www/responsive-17-template/js/myjs.js",
+		"/C/wamp/www/bayside-group/web-parts/web-part-job-search-2.html",
+		"/C/wamp/www/bayside-group/web-parts/web-part-job-search.html",
+		"/C/wamp/www/bayside-group/web-parts/web-part-banner.html",
+		"/C/wamp/www/bayside-group/global/css/generic-page.css",
+		"/C/wamp/www/bayside-group/css/landing.css",
+		"/C/wamp/www/bayside-group/pages/LANDING-aged-care.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-automotive-corporate.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-transport.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-pharmaceutical.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-mining.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-infrastructure.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-healthcare.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-food.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-education.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-building.html",
+		"/C/wamp/www/bayside-group/pages/LANDING-automotive.html",
+		"/C/wamp/www/bayside-group/css/landing-aged-care.css",
+		"/C/wamp/www/bayside-group/css/bu/landing.css",
+		"/C/wamp/www/bayside-group/pages/bu/LANDING-aged-care OLD.html",
+		"/C/wamp/www/bayside-group/pages/bu/landing aged care.html",
+		"/C/wamp/www/bayside-group/pages/new-job-alert.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/php/new-job-alert.php",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/php/create-job-alert.php",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/js/myjs.js",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/specialist brands.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/web-part-banner.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/bridge countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/techstaff countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/baytech countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/cozwine countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/bayside personnel countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/alitis countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/css/style.css",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/austrahealth countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/BRAND-PAGES/balpara countdown.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/our workforce.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/work in australia.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/advice and information (job seekers).html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/international recruitment.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/permanent recruitment.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/jobseekers.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/employers.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/timesheets.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/web-part-our-industries.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/home.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/pages/home BU.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/alitis-2844.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/austrahealth-2832.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/bayside-group-2841.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/bayside-personnel-2823.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/bayside-personnel-2825.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/bayside-personnel-2826.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/baytech-2831.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/bridge-consulting-2827.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/bridge-consulting-2828.html",
+		"/C/Users/karl/Documents/wamp/www/bayside-group/web-parts/job-ad-templates/techstaff-2829.html"
+	],
+	"find":
+	{
+		"height": 55.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\Users\\karl\\Documents\\wamp\\www\\bayside-group",
+			"C:\\Users\\karl\\Documents\\wamp\\www\\wood-recruitment",
+			"C:\\Users\\karl\\Documents\\wamp\\www\\legal-people",
+			"C:\\Users\\karl\\Documents\\wamp\\www\\bluefin-resources"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#w-home-banner",
+			"$generic-padding",
+			"#w-main-navigation a",
+			"<link",
+			"<style",
+			".css",
+			"float-right",
+			"float",
+			".css",
+			"=3D",
+			"src=\"images",
+			"<img ",
+			"<a ",
+			"1200",
+			"@media",
+			" href=\"#\" target=\"_blank\" title=\"LinkedIn\"",
+			" href=\"#\" target=\"_blank\" title=\"Twitter\"",
+			" href=\"#\" target=\"_blank\" title=\"Facebook\"",
+			" href=\"#\"",
+			"labs",
+			"autopl",
+			"auto",
+			"/site",
+			"500",
+			"600",
+			"300",
+			"italic",
+			"titil",
+			"roboto",
+			"open sa",
+			"a=\"\"",
+			"\\t",
+			"\\n",
+			"includefeed",
+			"<hr",
+			"@media",
+			"#b_slide-0",
+			"slide",
+			"icon-fac",
+			"http",
+			"__",
+			"?",
+			"__",
+			"@media",
+			"cycle",
+			"	",
+			"\\n",
+			"include",
+			"includefeed",
+			"side-l",
+			"side-k",
+			"salary",
+			"linkedin",
+			"\\n\\n",
+			"skip",
+			".page-service .service-holder ",
+			"f.jxt",
+			"800",
+			"600",
+			"500",
+			"900",
+			"700",
+			"open sa",
+			"arvo",
+			"font-family",
+			"\\n\\n",
+			"#site-social",
+			"site-social",
+			"#prefix_left-navigation",
+			"prefix_left-navigation",
+			"top-right",
+			"@media",
+			"job-sea",
+			"customsel",
+			"banner",
+			"#b_home-2-specialist-brands-container",
+			"window",
+			"nulla.\nVenenatis",
+			"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente omnis commodi quod, laudantium nobis ullam, obcaecati in nemo. Eveniet, neque!",
+			"advice",
+			".b_featured-section-container .b_featured-section",
+			".b_featured-section-container .b_featured-section br",
+			"featured-section",
+			" br",
+			"advice",
+			"blog",
+			"search ",
+			"specialis",
+			"h3",
+			"permanent",
+			"http://www.baysidepersonnel.com.au/At-Work/timesheets.html",
+			"data-href",
+			"cozwine",
+			"enginee",
+			"talent",
+			"looking for talen",
+			"\\n",
+			"%0D",
+			".b_our-values-box h2",
+			"#b_our-values-box h2",
+			"#b_specialisation-box h2",
+			"#b_header-content .navigation",
+			"header-cont",
+			"#b_header-content .navigation",
+			"#header-content .navigation",
+			".navigation",
+			"navigation",
+			"dynamic-content .navigation",
+			".navigation",
+			"content > .n",
+			"inbound",
+			"E-Timesheets",
+			"<a href=\"\" target=\"_blank\">Timesheets Online",
+			"online",
+			"<a href=\"\" target=\"_blank\">E-Timesheets On",
+			"<a href=\"\" target=\"_blank\">E-Timesheets on",
+			"<a href=\"\" target=\"_blank\">E-Timesheets",
+			"e-time",
+			"e-",
+			"contac",
+			"backto",
+			"banner",
+			"blog_posts",
+			"none;",
+			"/page/",
+			"/page/home/",
+			"BGLP_Auto_Dealerships",
+			"font-weight: 800;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"=",
+			"src=\"http://images.jxt.net.au/jxt/npa-worldwide/images",
+			"<img border=\"0\" ",
+			"<a border=\"0\" ",
+			" href=\"http://www.linkedin.com/company/exacta-recruitment-group?trk=company_name\" target=\"_blank\" title=\"LinkedIn\"",
+			" href=\"https://twitter.com/preacta\" target=\"_blank\" title=\"Twitter\"",
+			" href=\"https://www.facebook.com/preactarecruitment\" target=\"_blank\" title=\"Facebook\"",
+			" href=\"#\" target=\"_blank\"",
+			"",
+			"\\n",
+			".site-social",
+			".prefix_left-navigation",
+			"nulla. Venenatis",
+			"Dolor sit amet, consectetur adipiscing elit. Nulla vitae sem sed nulla.\nVenenatis placerat. Maecenas arcu ligula, suscipit ac scelerisque quis. Dolor sit amet, adipiscing elit.",
+			"/our-workforce/timesheets",
+			"data-xref",
+			"%0D%0A",
+			"\\n",
+			".b_our-values-box h2",
+			"#b_header-content > .navigation",
+			"#b_header-content .navigation",
+			"header-content .navigation",
+			"<a href=\"https://bayside.astutepayroll.com/bayside/login\" target=\"_blank\">Timesheets Online",
+			"<a href=\"https://bayside.virgo.net.au/\" target=\"_blank\">E-Timesheets",
+			"/",
+			"font-weight: 700;",
+			"",
+			"on-hired",
+			"On-hired Management Services",
+			"font-weight: 700;",
+			"http://images.jxt.net.au/bayside-group-2013/landing/baytech/",
+			"</p>",
+			"<p>",
+			"",
+			">Register<",
+			"b_featured-section-container",
+			".b_featured-section-container",
+			": ",
+			"",
+			"<p><a class=\"mini-new-buttons\" target=\"_blank\" href=\"\">More Info</a></p>",
+			" #EAEAEA",
+			"#b_specialisation",
+			"#b_specialisation-container",
+			"#b_specialisation-menu",
+			"#b_specialisation-box",
+			"Bayside Group",
+			"bayside-group-2013",
+			"http://www.baysidegroup.com.au",
+			"b_",
+			"Wood Recruitment",
+			"/page/specialty/",
+			"/",
+			"",
+			"/page/",
+			"",
+			"#w_banner-images",
+			"font-size: 12px;",
+			"text-indent: -5000em;",
+			"Wood Recruitment",
+			"wood-recruitment-2013",
+			"http://www.woodrecruitment.com.au",
+			"w_",
+			"",
+			"</a></h3>",
+			"<h3><a target=\"_blank\" href=\"\">",
+			"<b>A.</b>",
+			"<b>Q.</b>",
+			"&",
+			"l_",
+			"Legal People",
+			"legal-people",
+			"http://www.legalpeople.com.au",
+			"l_",
+			"\"b_generic-button b_small\" href=\"/page/about-us/meet-our-consultants/\"",
+			"h3",
+			"\"b_profile-phone\" href=\"tel://\"",
+			"/images/",
+			"src=\"http://images.jxt.net.au/bluefin-resources/images/images/dummy.jpg\"",
+			"<p>",
+			"h3",
+			"font-size: 11px;",
+			"b_generic-button-small",
+			".b_rss-box ",
+			"Bluefin Resources",
+			"bluefin-resources",
+			"http://www.bluefinresources.com.au",
+			"b_",
+			"font-size: 14px;",
+			"#f1f1f1",
+			".s_call-us",
+			".s_linkedin",
+			".s_twitter",
+			".s_facebook"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dist/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1687,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/scss/site.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4064,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3933,
+								3933
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7785.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wiliam.sublime-project",
+	"replace":
+	{
+		"height": 104.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

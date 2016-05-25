@@ -1,0 +1,25 @@
+// Hope I didn't go too overboard with the variables. 
+
+$desktop-breakpoint: 992px;
+$tablet-breakpoint: 768px;
+$max-content-width: 992px;
+
+$generic-font-size: 16px;
+$generic-padding-vertical: 7px;
+$generic-padding-horizontal: 15px;
+$generic-padding: $generic-padding-vertical $generic-padding-horizontal;
+$generic-bottom-spacing: 8px;
+$heading-1-size: 24px;
+$heading-2-size: 18px;
+$typography-spacing: $generic-font-size;
+
+$font-stack: Arial, Helvetica, sans-serif;
+$background-color: #fff;
+$text-color: #000;
+$primary-color: #ccc;
+$secondary-color: #EFEFEF;
+
+@mixin block-center-align() {
+	margin-left: auto;
+	margin-right: auto;
+}

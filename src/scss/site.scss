@@ -1,0 +1,222 @@
+@import 'variables';
+
+// This is coded without any frameworks to show that I am not reliant upon them. 
+// I like to separate CSS properties into groups, depending on whether they affect flow, affect sizing, or are just generic presentation styles.
+
+// Generic styling. 
+body
+{
+	padding-top: $generic-padding-vertical * 2;
+	margin: 0;
+
+	font-family: $font-stack;
+	background-color: $background-color;
+	color: $text-color;
+}
+a
+{
+	color: $text-color;
+}
+a:hover, 
+a:focus, 
+a:active
+{
+	color: $primary-color;
+}
+// I've heard that it's better to style using classes like '.h1', as you can apply h1 styles to an h2 etc. However I used traditional methods here. 
+h1, h2
+{
+	margin: 0 0 $typography-spacing;
+}
+h1
+{
+	font-size: $heading-1-size;
+}
+h2
+{
+	font-size: $heading-2-size;
+}
+p
+{
+	margin: 0 0 $typography-spacing;
+}
+// /Generic styling. 
+
+#w-wrapper
+{
+	max-width: 100%;
+	width: $max-content-width;
+	@include block-center-align();
+	padding-left: $generic-padding-horizontal;
+	padding-right: $generic-padding-horizontal;
+	box-sizing: border-box;
+}
+
+// Header
+#w-skip-link
+{
+	display: block;
+	padding: $generic-padding;
+	margin-bottom: $generic-bottom-spacing;
+
+	text-transform: uppercase;
+	text-align: center;
+	background-color: $primary-color;
+	color: $text-color;
+}
+#w-skip-link:hover, 
+#w-skip-link:focus, 
+#w-skip-link:active
+{
+	background-color: $secondary-color;
+	color: $text-color;
+}
+#w-logo 
+{
+	display: block;
+
+	width: 109px;
+	height: 2em;
+	margin-bottom: $generic-bottom-spacing;
+
+	line-height: 2em;
+	font-size: $heading-1-size;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	background-color: $primary-color;
+	color: $text-color;
+}
+#w-main-navigation
+{
+	margin-bottom: $generic-bottom-spacing;
+}
+// There are several ideas about specificity and how many levels of selectors should be used to avoid specificity wars. I have used traditional methods here, however I am aware of alternative methods such as SMACSS.
+#w-main-navigation ul
+{
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+}
+#w-main-navigation li
+{
+	display: block;
+	padding: 0;
+	margin: 0 0 2px;
+}
+#w-main-navigation a
+{
+	display: block;
+	padding: $generic-padding;
+
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: $secondary-color;
+}
+#w-main-navigation a:hover, 
+#w-main-navigation a:focus, 
+#w-main-navigation a:active
+{
+	background-color: $text-color;
+	color: $primary-color;
+}
+// Neat little trick to maintain an aspect ratio of a div when using background images. :D
+#w-home-banner
+{
+	position: relative;
+	height: 0;
+	padding-bottom: 73%;
+	margin-bottom: $generic-bottom-spacing;
+}
+.w-home-banner-image
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+
+	background: url("../images/banner-mobile.png") no-repeat 0 0;
+	background-size: contain;
+}
+// /Header
+
+// Home page
+#w-content-wrapper
+{
+	padding-top: $typography-spacing;
+}
+#w-main-content
+{
+	margin-bottom: $generic-bottom-spacing;
+}
+#w-main-aside
+{
+	margin-bottom: $generic-bottom-spacing;
+}
+// /Home page
+
+
+// I usually do desktop first, this is mobile first as I know this will probably be the industry standard.
+@media screen and (min-width: $tablet-breakpoint) 
+{
+	// skip link hidden using positioning, so that screen readers will still read it.
+	#w-skip-link
+	{
+		position: absolute;
+		left: -10000em;
+	}
+	// Change banner aspect ratio to something more rectangular and change banner to desktop version. 
+	#w-home-banner
+	{
+		padding-bottom: 33%;
+	}
+	.w-home-banner-image
+	{
+		background-image: url("../images/banner-desktop.png");
+	}
+}
+@media screen and (min-width: $desktop-breakpoint) 
+{
+	#w-logo 
+	{
+		float: left;
+	}
+	#w-main-navigation
+	{
+		float: right;
+	}
+	#w-main-navigation li
+	{
+		float: left;
+	}
+	#w-main-navigation a
+	{
+		padding-top: $generic-padding-vertical * 2;
+		background-color: transparent;
+	}
+	#w-main-navigation a:hover, 
+	#w-main-navigation a:focus, 
+	#w-main-navigation a:active
+	{
+		background-color: transparent;
+	}
+	#w-home-banner
+	{
+		clear: both;
+	}
+	#w-main-content
+	{
+		float: left;
+		width: 66%;
+	}
+	#w-main-aside
+	{
+		float: right;
+		width: 34%;
+		padding-left: $generic-padding-horizontal * 2;
+		box-sizing: border-box;
+	}
+}
